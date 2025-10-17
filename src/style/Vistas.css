@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap");
+
+.contenido_vista_izquierdo_1 {
+  position: relative;
+}
+
+.contenido_vista_izquierdo_1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(10, 61, 92, 0.4);
+  z-index: 1;
+}
+
+/* 🔹 Aseguramos que el texto y logo estén sobre el overlay */
+.texto_1 {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+}
+
+/* === Vista Derecho 1 === */
+
+.container_vista_derecho_1 {
+    position: relative;
+}
+
+.Decoracion {
+    margin-top: 600px;
+    margin-left: 230px;
+}
+
+.contenido_vista_derecho_1 {
+    position: absolute;
+    top: 0px;
+    z-index: 100;
+}
+
+.texto_derecho_1 {
+    color: white;
+    text-align: center;
+}
+
+.texto_derecho_1 p {
+  font-family: "Asap", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.texto_derecho_1 h1 {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4.5rem;
+  letter-spacing: -0.5px;
+}
+
+.buton_menu_explore {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.buton_menu_explore Button {
+    background-color: #6dcbff;
+    font-family: "Asap", sans-serif;
+    color: #040a1c;
+    border: none;
+    border-radius: 0px;
+    font-size: 20px;
+    padding: 24px 48px;
+}
